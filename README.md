@@ -1,9 +1,11 @@
 # BugTracker-WSB
-BugTracker
-Praca dyplomowa - WSB Gdańsk
-Zmienne
-spring.datasource.url=jdbc:postgresql://localhost:5432/auth_demo
-spring.datasource.username=wsb
-spring.datasource.password=1234
-default.admin.username=admin
-default.admin.password=1234
+<br>
+<p>
+  <b>Praca dyplomowa - WSB Gdańsk</b><p>
+  <br>
+Zmienne<p>
+spring.datasource.url=jdbc:postgresql://localhost:5432/auth_demo<p>
+spring.datasource.username=wsb<p>
+spring.datasource.password=1234<p>
+default.admin.username=admin<p>
+default.admin.password=1234<p>
