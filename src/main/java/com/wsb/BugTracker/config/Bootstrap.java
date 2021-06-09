@@ -1,7 +1,7 @@
 package com.wsb.BugTracker.config;
 
-import com.wsb.BugTracker.auth.Authority;
-import com.wsb.BugTracker.auth.AuthorityRepository;
+import com.wsb.BugTracker.authority.Authority;
+import com.wsb.BugTracker.authority.AuthorityRepository;
 import com.wsb.BugTracker.people.PersonService;
 import com.wsb.BugTracker.enums.AuthorityName;
 import org.springframework.beans.factory.InitializingBean;

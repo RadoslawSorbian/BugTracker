@@ -1,6 +1,6 @@
 package com.wsb.BugTracker.people;
 
-import com.wsb.BugTracker.auth.Authority;
+import com.wsb.BugTracker.authority.Authority;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;

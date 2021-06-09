@@ -1,4 +1,4 @@
-package com.wsb.BugTracker.auth;
+package com.wsb.BugTracker.authority;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.http.HttpServletRequest;

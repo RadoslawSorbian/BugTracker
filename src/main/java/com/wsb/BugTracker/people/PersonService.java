@@ -1,7 +1,7 @@
 package com.wsb.BugTracker.people;
 
-import com.wsb.BugTracker.auth.Authority;
-import com.wsb.BugTracker.auth.AuthorityRepository;
+import com.wsb.BugTracker.authority.Authority;
+import com.wsb.BugTracker.authority.AuthorityRepository;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;

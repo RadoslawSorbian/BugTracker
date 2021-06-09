@@ -1,6 +1,6 @@
 package com.wsb.BugTracker.people;
 
-import com.wsb.BugTracker.auth.Authority;
+import com.wsb.BugTracker.authority.Authority;
 import com.wsb.BugTracker.validators.UniqueUsername;
 import com.wsb.BugTracker.validators.ValidPasswords;
 import lombok.Getter;

@@ -26,7 +26,7 @@
                         <input id="username"
                                type="text"
                                th:field="*{username}"
-                               placeholder="jkowalski"
+                               placeholder="Kkajak"
                                th:class="'form-control ' + ${#fields.hasErrors('username') ? 'is-invalid' : ''}"/>
                         <small class="text-danger"
                                th:if="${#fields.hasErrors('username')}"
@@ -43,7 +43,7 @@
                         <input id="name"
                                type="text"
                                th:field="*{name}"
-                               placeholder="Jan Kowalski"
+                               placeholder="Krzysztof Kajak"
                                th:class="'form-control ' + ${#fields.hasErrors('name') ? 'is-invalid' : ''}"/>
                         <small class="text-danger"
                                th:if="${#fields.hasErrors('name')}"
@@ -77,7 +77,7 @@
                         <input id="password"
                                type="password"
                                th:field="*{password}"
-                               placeholder="janko123"
+                               placeholder="podaj hasło"
                                th:class="'form-control ' + ${#fields.hasErrors('password') ? 'is-invalid' : ''}"/>
                         <small class="text-danger"
                                th:if="${#fields.hasErrors('password')}"
@@ -94,7 +94,7 @@
                         <input id="repeated-password"
                                type="password"
                                th:field="*{repeatedPassword}"
-                               placeholder="janko123"
+                               placeholder="podaj hasło"
                                th:class="'form-control ' + ${#fields.hasErrors('repeatedPassword') ? 'is-invalid' : ''}"/>
                         <small class="text-danger"
                                th:if="${#fields.hasErrors('repeatedPassword')}"

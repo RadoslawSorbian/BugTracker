@@ -1,4 +1,4 @@
-package com.wsb.BugTracker.auth;
+package com.wsb.BugTracker.authority;
 
 import com.wsb.BugTracker.enums.AuthorityName;
 import lombok.Getter;
