@@ -166,13 +166,13 @@
             </div>
             <div class="inner pull-right mt-3">
                 <button type="submit"
-                        class="btn btn-outline-primary"
+                        class="btn btn-outline-primary btn-sm"
                         th:text="#{common.save}"></button>
-                <a class="btn btn-outline-danger"
+                <a class="btn btn-outline-danger btn-sm"
                    th:if="${issue.id} and ${#authorization.expression('hasRole(''ROLE_DELETE_ISSUE'')')}"
                    th:text="#{common.delete}"
                    th:href="@{../delete/{id}(id=${issue.id})}"></a>
-                <a class="btn btn-outline-secondary"
+                <a class="btn btn-outline-secondary btn-sm"
                    th:href="@{/issues}"
                    th:text="#{common.cancel}"></a>
             </div>

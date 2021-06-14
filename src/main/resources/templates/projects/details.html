@@ -13,10 +13,7 @@
         <h2 class="row">
             <div class="inner">
                 <label th:text="#{projects.details}"></label>
-                <a class="btn btn-outline-success btn-sm"
-                   th:if="${#authorization.expression('hasRole(''ROLE_EDIT_PROJECT'')')}"
-                   th:text="#{common.edit}"
-                   th:href="@{edit/{id}(id=${project.id})}"></a>
+
             </div>
         </h2>
 
@@ -60,7 +57,11 @@
             </div>
 
             <div class="inner pull-right mt-3">
-                <a class="btn btn-outline-secondary"
+                <a class="btn btn-outline-success btn-sm"
+                   th:if="${#authorization.expression('hasRole(''ROLE_EDIT_PROJECT'')')}"
+                   th:text="#{common.edit}"
+                   th:href="@{edit/{id}(id=${project.id})}"></a>
+                <a class="btn btn-outline-secondary btn-sm"
                    th:href="@{/projects}"
                    th:text="#{common.cancel}"></a>
             </div>
